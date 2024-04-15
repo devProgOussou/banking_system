@@ -1,1 +1,22 @@
 version = 1
+
+[[analyzers]]
+  name = "gradle"
+  enabled = true
+
+[[analyzers]]
+  name = "spotbugs"
+  enabled = true
+
+[[analyzers]]
+  name = "checkstyle"
+  enabled = true
+
+[git]
+  enabled = true
+
+[language.java]
+  enabled = true
+
+[language.xml]
+  enabled = true
